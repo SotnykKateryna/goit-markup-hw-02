@@ -79,8 +79,11 @@ ul {
 /* герой */
 
 .hero-title {
-    color: var(--white-color);
     background-color: #2F303A;
+}
+
+.hero-caption {
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -107,7 +110,6 @@ text-transform: uppercase;
 
 .feature-list .text {
     color: var(--text-color);
-font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 }
@@ -122,7 +124,6 @@ text-align: center;
 }
 
 .items .text-item {
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -182,7 +183,6 @@ letter-spacing: 0.06em;
 }
 
 .list .txt {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     color: var(--text-color);
@@ -200,6 +200,11 @@ letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+}
+
+.footer-nav {
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .footer-nav .footer-nav-link {
